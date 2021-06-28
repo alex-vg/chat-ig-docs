@@ -1,0 +1,44 @@
+[
+  {
+    "id": "chat.healthit",
+    "type": "ImplementationGuide",
+    "url": "https://healthconnect.institute//ImplementationGuide/chat.healthit",
+    "version": "0.1.0",
+    "name": "ChatIG"
+  },
+  {
+    "id": "hc-auth-identifier",
+    "type": "StructureDefinition",
+    "url": "https://healthconnect.institute//StructureDefinition/hc-auth-identifier",
+    "version": "0.1.0",
+    "name": "HCAuthIdentifier"
+  },
+  {
+    "id": "hc-care-team",
+    "type": "StructureDefinition",
+    "url": "https://healthconnect.institute//StructureDefinition/hc-care-team",
+    "version": "0.1.0",
+    "name": "HCCareTeam"
+  },
+  {
+    "id": "hc-communication",
+    "type": "StructureDefinition",
+    "url": "https://healthconnect.institute//StructureDefinition/hc-communication",
+    "version": "0.1.0",
+    "name": "HCCommunication"
+  },
+  {
+    "id": "hc-encounter",
+    "type": "StructureDefinition",
+    "url": "https://healthconnect.institute//StructureDefinition/hc-encounter",
+    "version": "0.1.0",
+    "name": "HCEncounter"
+  },
+  {
+    "id": "hc-practitioner",
+    "type": "StructureDefinition",
+    "url": "https://healthconnect.institute//StructureDefinition/hc-practitioner",
+    "version": "0.1.0",
+    "name": "HCPractitioner"
+  }
+]
