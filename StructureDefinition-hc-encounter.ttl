@@ -21,12 +21,12 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "patient" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "https://healthconnect.institute//StructureDefinition/hc-encounter"];
-  fhir:StructureDefinition.version [ fhir:value "0.1.0"];
+  fhir:StructureDefinition.url [ fhir:value "https://healthconnect.institute/StructureDefinition/hc-encounter"];
+  fhir:StructureDefinition.version [ fhir:value "1.0.0-rc1"];
   fhir:StructureDefinition.name [ fhir:value "HCEncounter"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-06-28T14:38:15+02:00"^^xsd:dateTime];
-  fhir:StructureDefinition.description [ fhir:value "The Encounter with display name in identifiers"];
+  fhir:StructureDefinition.date [ fhir:value "2021-06-29T12:14:33+02:00"^^xsd:dateTime];
+  fhir:StructureDefinition.description [ fhir:value "The Encounter with display name"];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [
      fhir:index 0;

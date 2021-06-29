@@ -3,13 +3,13 @@
   "id": "chat.healthit",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ChatIG</h2><p>The official URL for this implementation guide is: </p><pre>https://healthconnect.institute//ImplementationGuide/chat.healthit</pre></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ChatIG</h2><p>The official URL for this implementation guide is: </p><pre>https://healthconnect.institute/ImplementationGuide/chat.healthit</pre></div>"
   },
-  "url": "https://healthconnect.institute//ImplementationGuide/chat.healthit",
-  "version": "0.1.0",
+  "url": "https://healthconnect.institute/ImplementationGuide/chat.healthit",
+  "version": "1.0.0-rc1",
   "name": "ChatIG",
   "status": "draft",
-  "date": "2021-06-28T14:38:15+02:00",
+  "date": "2021-06-29T12:14:33+02:00",
   "packageId": "chat.healthit",
   "license": "CC0-1.0",
   "fhirVersion": [
@@ -21,6 +21,12 @@
       "uri": "http://fhir.de/",
       "packageId": "de.basisprofil.r4",
       "version": "1.0.0-rc4"
+    },
+    {
+      "id": "de_gematik_isik_basismodul",
+      "uri": "https://gematik.de/fhir/ISiK",
+      "packageId": "de.gematik.isik-basismodul",
+      "version": "1.0.0-rc2"
     }
   ],
   "definition": {
@@ -137,7 +143,7 @@
           },
           {
             "url": "value",
-            "valueString": "https://healthconnect.institute//history.html"
+            "valueString": "https://healthconnect.institute/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -327,7 +333,7 @@
           "reference": "StructureDefinition/hc-encounter"
         },
         "name": "HCEncounter",
-        "description": "The Encounter with display name in identifiers",
+        "description": "The Encounter with display name",
         "exampleBoolean": false
       },
       {

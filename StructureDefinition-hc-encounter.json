@@ -15,12 +15,12 @@
       "valueCode": "patient"
     }
   ],
-  "url": "https://healthconnect.institute//StructureDefinition/hc-encounter",
-  "version": "0.1.0",
+  "url": "https://healthconnect.institute/StructureDefinition/hc-encounter",
+  "version": "1.0.0-rc1",
   "name": "HCEncounter",
   "status": "active",
-  "date": "2021-06-28T14:38:15+02:00",
-  "description": "The Encounter with display name in identifiers",
+  "date": "2021-06-29T12:14:33+02:00",
+  "description": "The Encounter with display name",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

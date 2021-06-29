@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0",
+  "version": "1.0.0-rc1",
   "fhirVersion": "[4.0.1]",
-  "date": "20210628143731",
+  "date": "20210629121328",
   "name": "chat.healthit"
 }

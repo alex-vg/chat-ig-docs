@@ -3,13 +3,13 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="chat.healthit"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ChatIG</h2><p>The official URL for this implementation guide is: </p><pre>https://healthconnect.institute//ImplementationGuide/chat.healthit</pre></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ChatIG</h2><p>The official URL for this implementation guide is: </p><pre>https://healthconnect.institute/ImplementationGuide/chat.healthit</pre></div>
   </text>
-  <url value="https://healthconnect.institute//ImplementationGuide/chat.healthit"/>
-  <version value="0.1.0"/>
+  <url value="https://healthconnect.institute/ImplementationGuide/chat.healthit"/>
+  <version value="1.0.0-rc1"/>
   <name value="ChatIG"/>
   <status value="draft"/>
-  <date value="2021-06-28T14:38:15+02:00"/>
+  <date value="2021-06-29T12:14:33+02:00"/>
   <packageId value="chat.healthit"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
@@ -17,6 +17,11 @@
     <uri value="http://fhir.de/"/>
     <packageId value="de.basisprofil.r4"/>
     <version value="1.0.0-rc4"/>
+  </dependsOn>
+  <dependsOn id="de_gematik_isik_basismodul">
+    <uri value="https://gematik.de/fhir/ISiK"/>
+    <packageId value="de.gematik.isik-basismodul"/>
+    <version value="1.0.0-rc2"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -88,7 +93,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="https://healthconnect.institute//history.html"/>
+        <valueString value="https://healthconnect.institute/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -212,7 +217,7 @@
         <reference value="StructureDefinition/hc-encounter"/>
       </reference>
       <name value="HCEncounter"/>
-      <description value="The Encounter with display name in identifiers"/>
+      <description value="The Encounter with display name"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

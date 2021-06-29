@@ -33,7 +33,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Can include regular Identifier and special HCAuthIdentifier to link users on a system.","An identifier that applies to this person in this role.","","Often, specific identities are assigned for the agent.","","","","","","","",,,,,"","value:system}
 ","",,"open","Practitioner.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","PRD-7 (or XCN.1)","./id","./Identifiers","FiveWs.identifier"
-"Practitioner.identifier","HCAuthIdentifier","","",1,1,"","","","Identifier {[CanonicalType[https://healthconnect.institute//StructureDefinition/hc-auth-identifier]]} {[]}
+"Practitioner.identifier","HCAuthIdentifier","","",1,1,"","","","Identifier {[CanonicalType[https://healthconnect.institute/StructureDefinition/hc-auth-identifier]]} {[]}
 ","An identifier intended for computation","An identifier - identifies some entity uniquely and unambiguously. Typically this is used for business identifiers.","","Often, specific identities are assigned for the agent.","","","","","","","",,,,,"",,,,"Practitioner.identifier",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","CX / EI (occasionally, more often EI maps to a resource id or a URL)","n/a","II - The Identifier class is a little looser than the v3 type II because it allows URIs as well as registered OIDs or GUIDs.  Also maps to Role[classCode=IDENT]","Identifier"

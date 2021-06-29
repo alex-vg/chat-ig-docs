@@ -14,11 +14,11 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="individual"/>
   </extension>
-  <url value="https://healthconnect.institute//StructureDefinition/hc-practitioner"/>
-  <version value="0.1.0"/>
+  <url value="https://healthconnect.institute/StructureDefinition/hc-practitioner"/>
+  <version value="1.0.0-rc1"/>
   <name value="HCPractitioner"/>
   <status value="active"/>
-  <date value="2021-06-28T14:38:15+02:00"/>
+  <date value="2021-06-29T12:14:33+02:00"/>
   <description value="The Practitioner, which is bound to an external account on the identification provider (e.g. OAuth ID) via a special identifier property."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
@@ -441,7 +441,7 @@
       </base>
       <type>
         <code value="Identifier"/>
-        <profile value="https://healthconnect.institute//StructureDefinition/hc-auth-identifier"/>
+        <profile value="https://healthconnect.institute/StructureDefinition/hc-auth-identifier"/>
       </type>
       <condition value="ele-1"/>
       <constraint>
@@ -1101,7 +1101,7 @@
       <max value="1"/>
       <type>
         <code value="Identifier"/>
-        <profile value="https://healthconnect.institute//StructureDefinition/hc-auth-identifier"/>
+        <profile value="https://healthconnect.institute/StructureDefinition/hc-auth-identifier"/>
       </type>
     </element>
   </differential>

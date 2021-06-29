@@ -12,8 +12,11 @@
   <sch:pattern>
     <sch:title>f:Communication</sch:title>
     <sch:rule context="f:Communication">
+      <sch:assert test="count(f:subject) &gt;= 1">subject: minimum cardinality of 'subject' is 1</sch:assert>
+      <sch:assert test="count(f:encounter) &gt;= 1">encounter: minimum cardinality of 'encounter' is 1</sch:assert>
       <sch:assert test="count(f:recipient) &gt;= 1">recipient: minimum cardinality of 'recipient' is 1</sch:assert>
       <sch:assert test="count(f:sender) &gt;= 1">sender: minimum cardinality of 'sender' is 1</sch:assert>
+      <sch:assert test="count(f:payload) &gt;= 1">payload: minimum cardinality of 'payload' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

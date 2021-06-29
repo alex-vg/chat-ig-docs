@@ -15,11 +15,11 @@
       "valueCode": "patient"
     }
   ],
-  "url": "https://healthconnect.institute//StructureDefinition/hc-care-team",
-  "version": "0.1.0",
+  "url": "https://healthconnect.institute/StructureDefinition/hc-care-team",
+  "version": "1.0.0-rc1",
   "name": "HCCareTeam",
   "status": "active",
-  "date": "2021-06-28T14:38:15+02:00",
+  "date": "2021-06-29T12:14:33+02:00",
   "description": "The CareTeam which includes HCPractitioner(s)",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -980,9 +980,9 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "https://healthconnect.institute//StructureDefinition/hc-care-team",
+              "https://healthconnect.institute/StructureDefinition/hc-care-team",
               "http://hl7.org/fhir/StructureDefinition/Patient",
-              "https://healthconnect.institute//StructureDefinition/hc-practitioner"
+              "https://healthconnect.institute/StructureDefinition/hc-practitioner"
             ]
           }
         ],
@@ -1274,9 +1274,9 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "https://healthconnect.institute//StructureDefinition/hc-care-team",
+              "https://healthconnect.institute/StructureDefinition/hc-care-team",
               "http://hl7.org/fhir/StructureDefinition/Patient",
-              "https://healthconnect.institute//StructureDefinition/hc-practitioner"
+              "https://healthconnect.institute/StructureDefinition/hc-practitioner"
             ]
           }
         ]

@@ -14,11 +14,11 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="patient"/>
   </extension>
-  <url value="https://healthconnect.institute//StructureDefinition/hc-care-team"/>
-  <version value="0.1.0"/>
+  <url value="https://healthconnect.institute/StructureDefinition/hc-care-team"/>
+  <version value="1.0.0-rc1"/>
   <name value="HCCareTeam"/>
   <status value="active"/>
-  <date value="2021-06-28T14:38:15+02:00"/>
+  <date value="2021-06-29T12:14:33+02:00"/>
   <description value="The CareTeam which includes HCPractitioner(s)"/>
   <fhirVersion value="4.0.1"/>
   <mapping>
@@ -798,9 +798,9 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="https://healthconnect.institute//StructureDefinition/hc-care-team"/>
+        <targetProfile value="https://healthconnect.institute/StructureDefinition/hc-care-team"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
-        <targetProfile value="https://healthconnect.institute//StructureDefinition/hc-practitioner"/>
+        <targetProfile value="https://healthconnect.institute/StructureDefinition/hc-practitioner"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1032,9 +1032,9 @@
       <short value="Can include regular Identifier and special HCAuthIdentifier to link users on a system."/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="https://healthconnect.institute//StructureDefinition/hc-care-team"/>
+        <targetProfile value="https://healthconnect.institute/StructureDefinition/hc-care-team"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
-        <targetProfile value="https://healthconnect.institute//StructureDefinition/hc-practitioner"/>
+        <targetProfile value="https://healthconnect.institute/StructureDefinition/hc-practitioner"/>
       </type>
     </element>
   </differential>
