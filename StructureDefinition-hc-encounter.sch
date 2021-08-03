@@ -12,7 +12,8 @@
   <sch:pattern>
     <sch:title>f:Encounter</sch:title>
     <sch:rule context="f:Encounter">
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/display']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/display': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://healthconnect.institute/StructureDefinition/hc-display']) &gt;= 1">extension with URL = 'https://healthconnect.institute/StructureDefinition/hc-display': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://healthconnect.institute/StructureDefinition/hc-display']) &lt;= 1">extension with URL = 'https://healthconnect.institute/StructureDefinition/hc-display': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

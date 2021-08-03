@@ -1,8 +1,16 @@
 {
   "package": "chat.healthit",
-  "version": "1.0.0-rc1",
+  "version": "1.0.0-rc3",
   "fhirVersion": "4.0.1",
-  "extensions": [],
+  "extensions": [
+    {
+      "url": "https://healthconnect.institute/StructureDefinition/hc-display",
+      "title": "HCDisplay",
+      "types": [
+        "string"
+      ]
+    }
+  ],
   "profiles": {
     "CareTeam": [
       {
@@ -30,9 +38,6 @@
     ]
   },
   "usage": {
-    "http://hl7.org/fhir/StructureDefinition/display": [
-      "Encounter"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -68,6 +73,9 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "https://healthconnect.institute/StructureDefinition/hc-display": [
+      "Encounter"
     ]
   }
 }

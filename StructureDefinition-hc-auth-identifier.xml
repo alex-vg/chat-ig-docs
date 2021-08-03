@@ -9,10 +9,10 @@
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <url value="https://healthconnect.institute/StructureDefinition/hc-auth-identifier"/>
-  <version value="1.0.0-rc1"/>
+  <version value="1.0.0-rc3"/>
   <name value="HCAuthIdentifier"/>
   <status value="active"/>
-  <date value="2021-06-29T12:14:33+02:00"/>
+  <date value="2021-08-02T14:21:57+02:00"/>
   <description value="Special identifier which is used to bind to an external identification provider such as an OAuth server."/>
   <fhirVersion value="4.0.1"/>
   <mapping>

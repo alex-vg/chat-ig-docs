@@ -22,10 +22,10 @@
      fhir:Extension.valueCode [ fhir:value "individual" ]
   ];
   fhir:StructureDefinition.url [ fhir:value "https://healthconnect.institute/StructureDefinition/hc-practitioner"];
-  fhir:StructureDefinition.version [ fhir:value "1.0.0-rc1"];
+  fhir:StructureDefinition.version [ fhir:value "1.0.0-rc3"];
   fhir:StructureDefinition.name [ fhir:value "HCPractitioner"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-06-29T12:14:33+02:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-08-02T14:21:57+02:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "The Practitioner, which is bound to an external account on the identification provider (e.g. OAuth ID) via a special identifier property."];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [

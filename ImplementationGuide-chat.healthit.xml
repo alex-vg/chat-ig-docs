@@ -6,10 +6,10 @@
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ChatIG</h2><p>The official URL for this implementation guide is: </p><pre>https://healthconnect.institute/ImplementationGuide/chat.healthit</pre></div>
   </text>
   <url value="https://healthconnect.institute/ImplementationGuide/chat.healthit"/>
-  <version value="1.0.0-rc1"/>
+  <version value="1.0.0-rc3"/>
   <name value="ChatIG"/>
   <status value="draft"/>
-  <date value="2021-06-29T12:14:33+02:00"/>
+  <date value="2021-08-02T14:21:57+02:00"/>
   <packageId value="chat.healthit"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
@@ -229,6 +229,17 @@
       </reference>
       <name value="HCPractitioner"/>
       <description value="The Practitioner, which is bound to an external account on the identification provider (e.g. OAuth ID) via a special identifier property."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hc-display"/>
+      </reference>
+      <name value="HCDisplay"/>
+      <description value="Display value to use on element"/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

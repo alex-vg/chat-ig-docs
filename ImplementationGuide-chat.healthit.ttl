@@ -13,10 +13,10 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ChatIG</h2><p>The official URL for this implementation guide is: </p><pre>https://healthconnect.institute/ImplementationGuide/chat.healthit</pre></div>"
   ];
   fhir:ImplementationGuide.url [ fhir:value "https://healthconnect.institute/ImplementationGuide/chat.healthit"];
-  fhir:ImplementationGuide.version [ fhir:value "1.0.0-rc1"];
+  fhir:ImplementationGuide.version [ fhir:value "1.0.0-rc3"];
   fhir:ImplementationGuide.name [ fhir:value "ChatIG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-06-29T12:14:33+02:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-08-02T14:21:57+02:00"^^xsd:dateTime];
   fhir:ImplementationGuide.packageId [ fhir:value "chat.healthit"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
   fhir:ImplementationGuide.fhirVersion [
@@ -341,6 +341,20 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "HCPractitioner" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The Practitioner, which is bound to an external account on the identification provider (e.g. OAuth ID) via a special identifier property." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://healthconnect.institute/StructureDefinition/hc-display>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/hc-display" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HCDisplay" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Display value to use on element" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [

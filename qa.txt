@@ -1,15 +1,16 @@
 ﻿ChatIG : Validation Results
 =========================================
 
-err = 0, warn = 7, info = 0
-IG Publisher Version: 1.1.73 Out of date - current version is 1.1.76
-Generated Tue Jun 29 12:16:19 CEST 2021. FHIR version 4.0.1 for chat.healthit#1.0.0-rc1 (canonical = https://healthconnect.institute)
+err = 0, warn = 8, info = 0
+IG Publisher Version: 1.1.73 Out of date - current version is 1.1.77
+Generated Mon Aug 02 14:23:42 CEST 2021. FHIR version 4.0.1 for chat.healthit#1.0.0-rc3 (canonical = https://healthconnect.institute)
 
- Build Errors : 43 / 2 / 0
+ Build Errors : 50 / 2 / 0
  C:\Users\G430274\Desktop\chat-ig\fsh-generated\resources\ImplementationGuide-chat.healthit : 0 / 0 / 1
  C:\Users\G430274\Desktop\chat-ig\fsh-generated\resources\structuredefinition-hc-auth-identifier : 0 / 1 / 1
  C:\Users\G430274\Desktop\chat-ig\fsh-generated\resources\structuredefinition-hc-care-team : 0 / 1 / 1
  C:\Users\G430274\Desktop\chat-ig\fsh-generated\resources\structuredefinition-hc-communication : 0 / 1 / 1
+ C:\Users\G430274\Desktop\chat-ig\fsh-generated\resources\structuredefinition-hc-display : 0 / 1 / 1
  C:\Users\G430274\Desktop\chat-ig\fsh-generated\resources\structuredefinition-hc-encounter : 0 / 1 / 1
  C:\Users\G430274\Desktop\chat-ig\fsh-generated\resources\structuredefinition-hc-practitioner : 0 / 1 / 1
 </table>
@@ -40,14 +41,21 @@ ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-communicat
 ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-communication.profile.json.html#/html/body/div/div/div/p/a at Line 1924, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-communication.profile.ttl.html#/html/body/div/div/div/p/a at Line 1752, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-communication.profile.xml.html#/html/body/div/div/div/p/a at Line 1714, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-encounter-definitions.html#/html/body/div/div/div/p/a at Line 922, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-display-definitions.html#/html/body/div/div/div/p/a at Line 269, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-display-mappings.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-display.html#/html/body/div/div/div/p/a at Line 464, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-display.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-display.profile.json.html#/html/body/div/div/div/p/a at Line 495, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-display.profile.ttl.html#/html/body/div/div/div/p/a at Line 473, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-display.profile.xml.html#/html/body/div/div/div/p/a at Line 456, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-encounter-definitions.html#/html/body/div/div/div/p/a at Line 921, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-encounter-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-encounter-mappings.html#/html/body/div/div/div/p/a at Line 382, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-encounter.html#/html/body/div/div/div/p/a at Line 908, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-encounter.html#/html/body/div/div/div/p/a at Line 907, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-encounter.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-encounter.profile.json.html#/html/body/div/div/div/p/a at Line 3797, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-encounter.profile.ttl.html#/html/body/div/div/div/p/a at Line 3343, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-encounter.profile.xml.html#/html/body/div/div/div/p/a at Line 3342, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-encounter.profile.json.html#/html/body/div/div/div/p/a at Line 3798, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-encounter.profile.ttl.html#/html/body/div/div/div/p/a at Line 3344, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-encounter.profile.xml.html#/html/body/div/div/div/p/a at Line 3344, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-practitioner-definitions.html#/html/body/div/div/div/p/a at Line 510, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-practitioner-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-practitioner-mappings.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
@@ -56,7 +64,7 @@ ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-practition
 ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-practitioner.profile.json.html#/html/body/div/div/div/p/a at Line 1585, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-practitioner.profile.ttl.html#/html/body/div/div/div/p/a at Line 1417, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\G430274\Desktop\chat-ig\output\StructureDefinition-hc-practitioner.profile.xml.html#/html/body/div/div/div/p/a at Line 1456, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\G430274\Desktop\chat-ig\output\artifacts.html#/html/body/div/div/div/p/a at Line 225, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\G430274\Desktop\chat-ig\output\artifacts.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\G430274\Desktop\chat-ig\output\index.html#/html/body/div/div/div/p/a at Line 155, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\G430274\Desktop\chat-ig\output\toc.html#/html/body/div/div/div/p/a at Line 137, column 28: The link '' for "" cannot be resolved
 == C:\Users\G430274\Desktop\chat-ig\fsh-generated\resources\ImplementationGuide-chat.healthit.json ==
@@ -70,6 +78,9 @@ WARNING: StructureDefinition.where(url = 'https://healthconnect.institute/Struct
 == C:\Users\G430274\Desktop\chat-ig\fsh-generated\resources\StructureDefinition-hc-communication.json ==
 INFORMATION: StructureDefinition/hc-communication: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'https://healthconnect.institute/StructureDefinition/hc-communication'): The Implementation Guide contains no examples for this profile
+== C:\Users\G430274\Desktop\chat-ig\fsh-generated\resources\StructureDefinition-hc-display.json ==
+INFORMATION: StructureDefinition/hc-display: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'https://healthconnect.institute/StructureDefinition/hc-display'): The Implementation Guide contains no examples for this extension
 == C:\Users\G430274\Desktop\chat-ig\fsh-generated\resources\StructureDefinition-hc-encounter.json ==
 INFORMATION: StructureDefinition/hc-encounter: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'https://healthconnect.institute/StructureDefinition/hc-encounter'): The Implementation Guide contains no examples for this profile

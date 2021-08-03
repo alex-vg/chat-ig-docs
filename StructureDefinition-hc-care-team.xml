@@ -15,10 +15,10 @@
     <valueCode value="patient"/>
   </extension>
   <url value="https://healthconnect.institute/StructureDefinition/hc-care-team"/>
-  <version value="1.0.0-rc1"/>
+  <version value="1.0.0-rc3"/>
   <name value="HCCareTeam"/>
   <status value="active"/>
-  <date value="2021-06-29T12:14:33+02:00"/>
+  <date value="2021-08-02T14:21:57+02:00"/>
   <description value="The CareTeam which includes HCPractitioner(s)"/>
   <fhirVersion value="4.0.1"/>
   <mapping>

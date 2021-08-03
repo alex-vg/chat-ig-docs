@@ -6,10 +6,10 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ChatIG</h2><p>The official URL for this implementation guide is: </p><pre>https://healthconnect.institute/ImplementationGuide/chat.healthit</pre></div>"
   },
   "url": "https://healthconnect.institute/ImplementationGuide/chat.healthit",
-  "version": "1.0.0-rc1",
+  "version": "1.0.0-rc3",
   "name": "ChatIG",
   "status": "draft",
-  "date": "2021-06-29T12:14:33+02:00",
+  "date": "2021-08-02T14:21:57+02:00",
   "packageId": "chat.healthit",
   "license": "CC0-1.0",
   "fhirVersion": [
@@ -348,6 +348,20 @@
         },
         "name": "HCPractitioner",
         "description": "The Practitioner, which is bound to an external account on the identification provider (e.g. OAuth ID) via a special identifier property.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hc-display"
+        },
+        "name": "HCDisplay",
+        "description": "Display value to use on element",
         "exampleBoolean": false
       }
     ],

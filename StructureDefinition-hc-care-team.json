@@ -16,10 +16,10 @@
     }
   ],
   "url": "https://healthconnect.institute/StructureDefinition/hc-care-team",
-  "version": "1.0.0-rc1",
+  "version": "1.0.0-rc3",
   "name": "HCCareTeam",
   "status": "active",
-  "date": "2021-06-29T12:14:33+02:00",
+  "date": "2021-08-02T14:21:57+02:00",
   "description": "The CareTeam which includes HCPractitioner(s)",
   "fhirVersion": "4.0.1",
   "mapping": [
